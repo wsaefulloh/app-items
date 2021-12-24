@@ -39,6 +39,8 @@ users.addDataAdmin = async (req, res) => {
                 name: req.body.name,
                 username: req.body.username,
                 password: passHash,
+                email: req.body.email,
+                gender : req.body.gender,
                 role: "admin"
             }
             const result = await model.AddData(data)
@@ -63,6 +65,8 @@ users.addDataUser = async (req, res) => {
                 name: req.body.name,
                 username: req.body.username,
                 password: passHash,
+                email: req.body.email,
+                gender : req.body.gender,
                 role: "user"
             }
             const result = await model.AddData(data)
@@ -89,7 +93,9 @@ users.updateData = async (req, res) => {
                     name: req.body.name,
                     password: passHash,
                     role: role,
-                    username: username
+                    username: username,
+                    email: req.body.email,
+                    gender : req.body.gender
                 }
 
                 const result = await model.UpdateData(data)

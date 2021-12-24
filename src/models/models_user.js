@@ -3,7 +3,7 @@ const {DataTypes, where, Op, Sequelize} = require("sequelize")
 
 class User{
     constructor(){
-        this.table = orm.define("users", {
+        this.table = orm.define("newusers", {
             id:{
                 type: DataTypes.INTEGER,
                 allowNull:false,
@@ -11,6 +11,14 @@ class User{
                 primaryKey: true
             },
             name:{
+                type: DataTypes.STRING,
+                allowNull: false,
+            },
+            email:{
+                type: DataTypes.STRING,
+                allowNull: false,
+            },
+            gender:{
                 type: DataTypes.STRING,
                 allowNull: false,
             },
@@ -45,6 +53,8 @@ class User{
                     name_user : data.name,
                     username : data.username,
                     password : data.password,
+                    email : data.email,
+                    gender : data.gender,
                     role : data.role,
                 }
                 return object;
@@ -73,6 +83,8 @@ class User{
                     name_user : data.name,
                     username : data.username,
                     password : data.password,
+                    email : data.email,
+                    gender : data.gender,
                     role : data.role,
                 }
                 return object;
@@ -101,6 +113,8 @@ class User{
             this.table.update({
                 name : data.name,
                 password : data.password,
+                email : data.email,
+                gender : data.gender,
                 role: data.role,
             },{
                 where : {
