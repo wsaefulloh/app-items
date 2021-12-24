@@ -59,7 +59,7 @@
    ```
 
 ## End Point
-You can see all the end point [here](https://documenter.getpostman.com/view/16508598/UVREiith#374165cf-af08-45a2-9a59-47f34344bfe7)
+You can see all the end point [here](https://documenter.getpostman.com/view/16508598/UVREiith)
 
 
 ## License
