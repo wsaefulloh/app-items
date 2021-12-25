@@ -1,9 +1,10 @@
 <h1 align="center">App Monitoring Items</h1>
 <p align="center"><img src="https://miro.medium.com/max/1400/0*RDbjFZxjwF_JQWz-.jpg" width="400px" alt="NodeJS.jpg" /></p>
 <p align="center">
-    <a href="https://en.wikipedia.org/wiki/Express.js" target="blank">More about Express</a>
+    <a href="https://newitemsapps.netlify.app/" target="blank">View Demo</a>
+  · <a href="https://github.com/wsaefulloh/app-items/issues">Report Bug</a>
+  · <a href="https://github.com/wsaefulloh/app-items/pulls">Request Feature</a>
 </p>
-
 ## Built With
 
 [![Express.js](https://img.shields.io/badge/Express.js-4.x-orange.svg?style=rounded-square)](https://expressjs.com/en/starter/installing.html)
@@ -62,7 +63,7 @@
 You can see all the end point [here](https://documenter.getpostman.com/view/16508598/UVREiith)
 
 ## Frontend Repository
-Backend API : Items App - Backend [here](https://github.com/wsaefulloh/front-item/edit/main/README.md)
+Frontend : Items App - Frontend [here](https://github.com/wsaefulloh/front-item/edit/main/README.md)
 
 ## License
 © [Wahyu Saefulloh](https://github.com/wsaefulloh/)
