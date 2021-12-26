@@ -63,7 +63,7 @@
 You can see all the end point [here](https://documenter.getpostman.com/view/16508598/UVREiith)
 
 ## Frontend Repository
-Frontend : Items App - Frontend [here](https://github.com/wsaefulloh/front-item/edit/main/README.md)
+Frontend : Items App - Frontend [here](https://github.com/wsaefulloh/front-item/)
 
 ## License
 © [Wahyu Saefulloh](https://github.com/wsaefulloh/)
