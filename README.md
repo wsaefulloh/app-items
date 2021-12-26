@@ -56,7 +56,7 @@
 5. You are all set!
 
    ```bash
-   Backend running at: http://localhost:3000
+   Backend running at: http://localhost:9000
    ```
 
 ## End Point
