@@ -1,7 +1,7 @@
 require("dotenv/config")
 
 const server = require("./server");
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 9000;
 const database = require('./src/configs/db');
 
 async function init() {
